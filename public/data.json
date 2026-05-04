@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "email": "sara.j@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": [
+      "college",
+      "hiking"
+    ],
+    "bio": "Study buddy from undergrad. We try to hit a new trail every month.",
+    "goal": 14,
+    "next_due_date": "2024-05-10"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thorne",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "email": "m.thorne@provider.net",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": [
+      "work",
+      "tech"
+    ],
+    "bio": "Former colleague from the design agency. Great for brainstorming side projects.",
+    "goal": 30,
+    "next_due_date": "2024-05-31"
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    "email": "elena.rod@webmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": [
+      "childhood",
+      "close friend"
+    ],
+    "bio": "Grew up on the same street. She moved to Chicago but we stay in touch.",
+    "goal": 30,
+    "next_due_date": "2024-04-19"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+    "email": "dkim_music@example.com",
+    "days_since_contact": 5,
+    "status": "active",
+    "tags": [
+      "music",
+      "concerts"
+    ],
+    "bio": "Met at a jazz club. We share a love for vinyl records and live shows.",
+    "goal": 21,
+    "next_due_date": "2024-05-20"
+  },
+  {
+    "id": 5,
+    "name": "Chloe Bennett",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "email": "chloeb@service.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": [
+      "travel",
+      "photography"
+    ],
+    "bio": "Travel partner during the Europe trip in 2022. Expert at finding hidden cafes.",
+    "goal": 60,
+    "next_due_date": "2024-05-02"
+  },
+  {
+    "id": 6,
+    "name": "James Wilson",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6",
+    "email": "jwilson.builds@example.com",
+    "days_since_contact": 1,
+    "status": "active",
+    "tags": [
+      "gaming",
+      "coding"
+    ],
+    "bio": "Met in an online Python course. Now we play coop games every weekend.",
+    "goal": 7,
+    "next_due_date": "2024-05-11"
+  },
+  {
+    "id": 7,
+    "name": "Amara Okafor",
+    "picture": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce",
+    "email": "amara.ok@provider.com",
+    "days_since_contact": 12,
+    "status": "active",
+    "tags": [
+      "yoga",
+      "fitness"
+    ],
+    "bio": "Yoga instructor and friend. Keeps me grounded and motivated to stay active.",
+    "goal": 14,
+    "next_due_date": "2024-05-06"
+  },
+  {
+    "id": 8,
+    "name": "Leo Santoro",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "email": "leo.s@kitchen.net",
+    "days_since_contact": 85,
+    "status": "overdue",
+    "tags": [
+      "cooking",
+      "foodie"
+    ],
+    "bio": "Old roommate who taught me how to make proper carbonara.",
+    "goal": 90,
+    "next_due_date": "2024-05-09"
+  },
+  {
+    "id": 9,
+    "name": "Maya Patel",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "email": "maya.patel@webmail.org",
+    "days_since_contact": 10,
+    "status": "active",
+    "tags": [
+      "books",
+      "writing"
+    ],
+    "bio": "Part of my local book club. We both enjoy historical fiction.",
+    "goal": 30,
+    "next_due_date": "2024-05-24"
+  },
+  {
+    "id": 10,
+    "name": "Sam Richards",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "email": "srichards@example.com",
+    "days_since_contact": 150,
+    "status": "overdue",
+    "tags": [
+      "high school",
+      "old friend"
+    ],
+    "bio": "Best friend from high school. We haven't talked in a while, need to catch up.",
+    "goal": 120,
+    "next_due_date": "2024-04-04"
+  }
+]
