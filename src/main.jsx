@@ -8,6 +8,7 @@ import TimeLine from './pages/timeline/TimeLine'
 import Stats from './pages/stats/Stats'
 import NotFoundPage from './pages/notfoundpage/NotFoundPage'
 import HomePage from './pages/homepage/HomePage'
+import FriendDetails from './pages/friendDetails/FriendDetails'
 /* step-2*/
 const router= createBrowserRouter(
   [
@@ -27,7 +28,11 @@ const router= createBrowserRouter(
         { /*step-9 after making Stats.jsx, update it in path and element and import it*/
           path:'/stats',
           element: <Stats/>
-        }
+        },
+      {
+        path: "/friend/:id",
+        element: <FriendDetails />
+      }
       ],
       errorElement:<NotFoundPage/> /*step-14 import after making it*/
     },
