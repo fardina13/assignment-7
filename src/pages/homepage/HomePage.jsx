@@ -4,6 +4,7 @@ import Banner from "../../components/homepage/Banner";
 import FriendsSection from "../../components/homepage/FriendsSection";
 
 const HomePage = () => {
+  
     return (
         <>
             <Banner/>

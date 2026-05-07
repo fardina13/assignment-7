@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider } from 'react-router/dom'
@@ -9,7 +9,9 @@ import Stats from './pages/stats/Stats'
 import NotFoundPage from './pages/notfoundpage/NotFoundPage'
 import HomePage from './pages/homepage/HomePage'
 import FriendDetails from './pages/friendDetails/FriendDetails'
+import { ToastContainer } from 'react-toastify'
 /* step-2*/
+
 const router= createBrowserRouter(
   [
     {
