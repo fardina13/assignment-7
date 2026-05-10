@@ -1,5 +1,6 @@
-import { use } from "react";
+import { use, useEffect, useState } from "react";
 import { Link } from "react-router";
+import { HashLoader } from "react-spinners";
 
 // import React from 'react';
 const friendsPromise = fetch('/data.json').then(res=>res.json())
@@ -17,15 +18,31 @@ const getStatusStyle = (status) => {
   }
 };
 
-
 const FriendsSection = () => {
+    const [loading, setLoading] = useState(true);
     const friends = use(friendsPromise);
+
     console.log(friends);
+    useEffect(() => {
+        if (friends) setLoading(false);
+    }, [friends]);
+
+    // if (loading) return <div className="text-center p-10">Loading Friends...</div>;
+    if (loading) {
+        return (
+            <div className='flex justify-center items-center py-20'>
+                <HashLoader color='#AD46FF'/>
+            </div>
+        );
+    }
+    
+    
     return (
         <div>
             <div className="container mx-[70px]">
             <h2 className="font-semibold text-[24px] mb-4">Your Friends</h2>
         </div>
+        
         <div className="bg-gray-50 p-8">
                           <div className="grid grid-cols-4 gap-6 mx-auto">
         {
